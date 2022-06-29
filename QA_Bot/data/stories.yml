@@ -1,0 +1,217 @@
+version: "3.0"
+
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - checkpoint: check_selected_method
+
+- story: assess cont path
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont1
+  - action: utter_assess_cont1
+
+
+- story: assess cont path2
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont2
+  - action: utter_assess_cont2
+  - checkpoint: finished_ask_method
+  
+
+- story: assess cont path3
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont3
+  - action: utter_assess_cont3
+  - checkpoint: finished_ask_method
+
+- story: assess cont path4
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont4
+  - action: utter_assess_cont4
+  - checkpoint: finished_ask_method
+
+- story: assess cont path5
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont5
+  - action: utter_assess_cont5
+  - checkpoint: finished_ask_method
+
+- story: assess cont path6
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont6
+  - action: utter_assess_cont6
+  - checkpoint: finished_ask_method
+
+- story: assess cont path7
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont7
+  - action: utter_assess_cont7
+  - checkpoint: finished_ask_method
+
+- story: assess cont path8
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont8
+  - action: utter_assess_cont8
+  - checkpoint: finished_ask_method
+
+- story: assess cont path9
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont9
+  - action: utter_assess_cont9
+  - checkpoint: finished_ask_method
+
+- story: assess cont path10
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont10
+  - action: utter_assess_cont10
+  - checkpoint: finished_ask_method
+
+- story: assess cont path11
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont11
+  - action: utter_assess_cont11
+  - checkpoint: finished_ask_method
+
+- story: assess cont path12
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont12
+  - action: utter_assess_cont12
+  - checkpoint: finished_ask_method
+
+- story: assess cont path13
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont13
+  - action: utter_assess_cont13
+  - checkpoint: finished_ask_method
+
+- story: assess cont path14
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont14
+  - action: utter_assess_cont14
+  - checkpoint: finished_ask_method
+
+- story: assess cont path15
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont15
+  - action: utter_assess_cont15
+  - checkpoint: finished_ask_method
+
+- story: assess cont path16
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont16
+  - action: utter_assess_cont16
+  - checkpoint: finished_ask_method
+
+- story: assess cont path17
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont17
+  - action: utter_assess_cont17
+  - checkpoint: finished_ask_method
+
+- story: assess cont path18
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont18
+  - action: utter_assess_cont18
+  - checkpoint: finished_ask_method
+
+- story: assess cont path19
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont19
+  - action: utter_assess_cont19
+  - checkpoint: finished_ask_method
+
+- story: assess cont path20
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont20
+  - action: utter_assess_cont20
+  - checkpoint: finished_ask_method
+
+- story: assess cont path21
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont21
+  - action: utter_assess_cont21
+  - checkpoint: finished_ask_method
+
+- story: assess cont path22
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont22
+  - action: utter_assess_cont22
+  - checkpoint: finished_ask_method
+
+- story: assess cont path23
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont23
+  - action: utter_assess_cont23
+  - checkpoint: finished_ask_method
+
+- story: assess cont path24
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont24
+  - action: utter_assess_cont24
+  - checkpoint: finished_ask_method
+
+- story: assess cont path25
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont25
+  - action: utter_assess_cont25
+  - checkpoint: finished_ask_method
+
+- story: assess cont path26
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont26
+  - action: utter_assess_cont26
+  - checkpoint: finished_ask_method
+
+- story: assess cont path27
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont27
+  - action: utter_assess_cont27
+  - checkpoint: finished_ask_method
+
+- story: assess cont path28
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont28
+  - action: utter_assess_cont28
+  - checkpoint: finished_ask_method
+
+- story: assess cont path29
+  steps:
+  - checkpoint: check_selected_method
+  - intent: assess_cont29
+  - action: utter_assess_cont29
+  - checkpoint: finished_ask_method
+
+
+- story: already_asked_method
+  steps:
+  - checkpoint: finished_ask_method
+  - action: utter_ask_q

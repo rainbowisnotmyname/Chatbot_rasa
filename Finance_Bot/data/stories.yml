@@ -1,0 +1,55 @@
+version: "3.0"
+
+stories:
+
+- story: ask_payment_method
+  steps:
+  - intent: payment_method
+  - action: utter_payment_method
+  - checkpoint: check_selected_method
+
+- story: ask_method_bank
+  steps:
+  - checkpoint: check_selected_method
+  - intent: method_bank
+  - action: utter_method_bank
+  - intent: epay_tax
+  - action: utter_epay_tax
+  - checkpoint: finished_ask_method
+
+- story: ask_method_epay
+  steps:
+  - checkpoint: check_selected_method
+  - intent: method_epay
+  - action: utter_method_epay
+  - intent: epay_locate
+  - action: utter_epay_locate
+  - intent: epay_receipt
+  - action: utter_epay_receipt
+  - intent: epay_tax
+  - action: utter_epay_tax
+  - checkpoint: finished_ask_method
+
+- story: already_asked_method
+  steps:
+  - checkpoint: finished_ask_method
+  - action: utter_ask_q
+
+- story: ask_rec_com
+  steps:
+  - intent: receive_compensation
+  - action: utter_receive_compensation
+  - checkpoint: via_bank
+
+- story: receive_via_bank
+  steps:
+  - checkpoint: via_bank
+  - intent: receive_bank
+  - action: utter_which_bank
+  - intent: another_account
+  - action: utter_another_account
+  - intent: live_abroad
+  - action: utter_live_abroad
+  - intent: expired_check
+  - action: utter_expired_check
+  - action: utter_ask_q

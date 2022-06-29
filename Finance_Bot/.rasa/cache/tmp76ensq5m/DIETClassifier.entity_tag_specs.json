@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-movies",
+      "2": "I-movies",
+      "3": "L-movies",
+      "4": "U-movies",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-movies": 1,
+      "I-movies": 2,
+      "L-movies": 3,
+      "U-movies": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

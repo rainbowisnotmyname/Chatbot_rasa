@@ -1,0 +1,10 @@
+[
+  {
+    "name": "zip_code",
+    "pattern": "\\d{5}"
+  },
+  {
+    "name": "country_th",
+    "pattern": "(\\bไทย\\b|\\bจีน\\b)"
+  }
+]

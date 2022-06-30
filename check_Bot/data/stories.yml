@@ -1,0 +1,31 @@
+version: "3.0"
+
+stories:
+
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - checkpoint: check_selected_method
+
+- story: employer ask
+  steps:
+  - checkpoint: check_selected_method
+  - intent: emp_ask
+  - action: utter_emp_ask
+  - intent: emp_ask_disagreed
+  - action: utter_emp_ask_disagreed
+  - intent: emp_ask_decline
+  - action: utter_emp_ask_decline
+  - intent: emp_ask_lost
+  - action: utter_emp_ask_lost
+
+- story: ask about law
+  steps:
+  - checkpoint: check_selected_method
+  - intent: ask_law1
+  - action: utter_ask_law1
+  - intent: ask_law2
+  - action: utter_ask_law2
+  - intent: ask_agent
+  - action: utter_ask_agent

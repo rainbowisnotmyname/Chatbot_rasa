@@ -1,0 +1,6 @@
+[
+  {
+    "name": "zip_code",
+    "pattern": "\\d{5}"
+  }
+]

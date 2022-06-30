@@ -1,0 +1,40 @@
+version: "3.0"
+
+stories:
+
+- story: ask question path
+  steps:
+  - intent: ask_question1
+  - action: utter_question1
+  - intent: ask_question2
+  - action: utter_question2
+  - intent: ask_question3
+  - action: utter_question3
+  - intent: ask_question4
+  - action: utter_question4
+  - intent: ask_question5
+  - action: utter_question5
+  - intent: ask_question6
+  - action: utter_question6
+  - intent: ask_question7
+  - action: utter_question7
+  - intent: ask_question8
+  - action: utter_question8
+  - intent: ask_question9
+  - action: utter_question9
+  - intent: ask_question10
+  - action: utter_question10
+  - intent: ask_question11
+  - action: utter_question11
+  - intent: ask_question12
+  - action: utter_question12
+  - intent: ask_question13
+  - action: utter_question13
+  - intent: ask_question14
+  - action: utter_question14
+  - intent: ask_question15
+  - action: utter_question15
+  - intent: ask_question16
+  - action: utter_question16
+  - intent: ask_question17
+  - action: utter_question17
